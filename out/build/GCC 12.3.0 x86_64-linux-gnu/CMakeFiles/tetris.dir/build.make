@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dylan/Documents/GameClones/TetrisClone
+CMAKE_SOURCE_DIR = /home/dylan/Documents/GitHubRepo/TetrisClone
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu"
+CMAKE_BINARY_DIR = "/home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tetris.dir/depend.make
@@ -73,46 +73,46 @@ CMakeFiles/tetris.dir/codegen:
 .PHONY : CMakeFiles/tetris.dir/codegen
 
 CMakeFiles/tetris.dir/src/main.cpp.o: CMakeFiles/tetris.dir/flags.make
-CMakeFiles/tetris.dir/src/main.cpp.o: /home/dylan/Documents/GameClones/TetrisClone/src/main.cpp
+CMakeFiles/tetris.dir/src/main.cpp.o: /home/dylan/Documents/GitHubRepo/TetrisClone/src/main.cpp
 CMakeFiles/tetris.dir/src/main.cpp.o: CMakeFiles/tetris.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tetris.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/src/main.cpp.o -MF CMakeFiles/tetris.dir/src/main.cpp.o.d -o CMakeFiles/tetris.dir/src/main.cpp.o -c /home/dylan/Documents/GameClones/TetrisClone/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tetris.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/src/main.cpp.o -MF CMakeFiles/tetris.dir/src/main.cpp.o.d -o CMakeFiles/tetris.dir/src/main.cpp.o -c /home/dylan/Documents/GitHubRepo/TetrisClone/src/main.cpp
 
 CMakeFiles/tetris.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tetris.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dylan/Documents/GameClones/TetrisClone/src/main.cpp > CMakeFiles/tetris.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dylan/Documents/GitHubRepo/TetrisClone/src/main.cpp > CMakeFiles/tetris.dir/src/main.cpp.i
 
 CMakeFiles/tetris.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dylan/Documents/GameClones/TetrisClone/src/main.cpp -o CMakeFiles/tetris.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dylan/Documents/GitHubRepo/TetrisClone/src/main.cpp -o CMakeFiles/tetris.dir/src/main.cpp.s
 
 CMakeFiles/tetris.dir/src/tetris.cpp.o: CMakeFiles/tetris.dir/flags.make
-CMakeFiles/tetris.dir/src/tetris.cpp.o: /home/dylan/Documents/GameClones/TetrisClone/src/tetris.cpp
+CMakeFiles/tetris.dir/src/tetris.cpp.o: /home/dylan/Documents/GitHubRepo/TetrisClone/src/tetris.cpp
 CMakeFiles/tetris.dir/src/tetris.cpp.o: CMakeFiles/tetris.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tetris.dir/src/tetris.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/src/tetris.cpp.o -MF CMakeFiles/tetris.dir/src/tetris.cpp.o.d -o CMakeFiles/tetris.dir/src/tetris.cpp.o -c /home/dylan/Documents/GameClones/TetrisClone/src/tetris.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tetris.dir/src/tetris.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/src/tetris.cpp.o -MF CMakeFiles/tetris.dir/src/tetris.cpp.o.d -o CMakeFiles/tetris.dir/src/tetris.cpp.o -c /home/dylan/Documents/GitHubRepo/TetrisClone/src/tetris.cpp
 
 CMakeFiles/tetris.dir/src/tetris.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tetris.dir/src/tetris.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dylan/Documents/GameClones/TetrisClone/src/tetris.cpp > CMakeFiles/tetris.dir/src/tetris.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dylan/Documents/GitHubRepo/TetrisClone/src/tetris.cpp > CMakeFiles/tetris.dir/src/tetris.cpp.i
 
 CMakeFiles/tetris.dir/src/tetris.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/src/tetris.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dylan/Documents/GameClones/TetrisClone/src/tetris.cpp -o CMakeFiles/tetris.dir/src/tetris.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dylan/Documents/GitHubRepo/TetrisClone/src/tetris.cpp -o CMakeFiles/tetris.dir/src/tetris.cpp.s
 
 CMakeFiles/tetris.dir/src/grid.cpp.o: CMakeFiles/tetris.dir/flags.make
-CMakeFiles/tetris.dir/src/grid.cpp.o: /home/dylan/Documents/GameClones/TetrisClone/src/grid.cpp
+CMakeFiles/tetris.dir/src/grid.cpp.o: /home/dylan/Documents/GitHubRepo/TetrisClone/src/grid.cpp
 CMakeFiles/tetris.dir/src/grid.cpp.o: CMakeFiles/tetris.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tetris.dir/src/grid.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/src/grid.cpp.o -MF CMakeFiles/tetris.dir/src/grid.cpp.o.d -o CMakeFiles/tetris.dir/src/grid.cpp.o -c /home/dylan/Documents/GameClones/TetrisClone/src/grid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tetris.dir/src/grid.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/src/grid.cpp.o -MF CMakeFiles/tetris.dir/src/grid.cpp.o.d -o CMakeFiles/tetris.dir/src/grid.cpp.o -c /home/dylan/Documents/GitHubRepo/TetrisClone/src/grid.cpp
 
 CMakeFiles/tetris.dir/src/grid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tetris.dir/src/grid.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dylan/Documents/GameClones/TetrisClone/src/grid.cpp > CMakeFiles/tetris.dir/src/grid.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dylan/Documents/GitHubRepo/TetrisClone/src/grid.cpp > CMakeFiles/tetris.dir/src/grid.cpp.i
 
 CMakeFiles/tetris.dir/src/grid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/src/grid.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dylan/Documents/GameClones/TetrisClone/src/grid.cpp -o CMakeFiles/tetris.dir/src/grid.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dylan/Documents/GitHubRepo/TetrisClone/src/grid.cpp -o CMakeFiles/tetris.dir/src/grid.cpp.s
 
 # Object files for target tetris
 tetris_OBJECTS = \
@@ -135,7 +135,7 @@ tetris: _deps/raylib-build/raylib/external/glfw/src/libglfw3.a
 tetris: /usr/lib/x86_64-linux-gnu/librt.a
 tetris: /usr/lib/x86_64-linux-gnu/libm.so
 tetris: CMakeFiles/tetris.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable tetris"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable tetris"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tetris.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -147,6 +147,6 @@ CMakeFiles/tetris.dir/clean:
 .PHONY : CMakeFiles/tetris.dir/clean
 
 CMakeFiles/tetris.dir/depend:
-	cd "/home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dylan/Documents/GameClones/TetrisClone /home/dylan/Documents/GameClones/TetrisClone "/home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu" "/home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu" "/home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/CMakeFiles/tetris.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dylan/Documents/GitHubRepo/TetrisClone /home/dylan/Documents/GitHubRepo/TetrisClone "/home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu" "/home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu" "/home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/CMakeFiles/tetris.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/tetris.dir/depend
 

@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
 # Make file names absolute:
 #
-get_filename_component(filename "/home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/_deps/raylib-tmp/5.0.zip" ABSOLUTE)
-get_filename_component(directory "/home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/_deps/raylib-src" ABSOLUTE)
+get_filename_component(filename "/home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/_deps/raylib-tmp/5.0.zip" ABSOLUTE)
+get_filename_component(directory "/home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/_deps/raylib-src" ABSOLUTE)
 
 message(VERBOSE "extracting...
      src='${filename}'

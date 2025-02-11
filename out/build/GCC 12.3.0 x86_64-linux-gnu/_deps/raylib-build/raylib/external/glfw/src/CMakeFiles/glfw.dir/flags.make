@@ -4,7 +4,7 @@
 # compile C with /usr/bin/gcc-12
 C_DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
 
-C_INCLUDES = -I"/home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/_deps/raylib-src/src/external/glfw/include" -I"/home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/_deps/raylib-src/src/external/glfw/src" -I"/home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/_deps/raylib-build/raylib/external/glfw/src"
+C_INCLUDES = -I"/home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/_deps/raylib-src/src/external/glfw/include" -I"/home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/_deps/raylib-src/src/external/glfw/src" -I"/home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/_deps/raylib-build/raylib/external/glfw/src"
 
 C_FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -fPIC -Wall
 

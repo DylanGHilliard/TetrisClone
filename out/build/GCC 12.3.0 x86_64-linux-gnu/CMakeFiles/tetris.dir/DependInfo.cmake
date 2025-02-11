@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/dylan/Documents/GameClones/TetrisClone/src/grid.cpp" "CMakeFiles/tetris.dir/src/grid.cpp.o" "gcc" "CMakeFiles/tetris.dir/src/grid.cpp.o.d"
-  "/home/dylan/Documents/GameClones/TetrisClone/src/main.cpp" "CMakeFiles/tetris.dir/src/main.cpp.o" "gcc" "CMakeFiles/tetris.dir/src/main.cpp.o.d"
-  "/home/dylan/Documents/GameClones/TetrisClone/src/tetris.cpp" "CMakeFiles/tetris.dir/src/tetris.cpp.o" "gcc" "CMakeFiles/tetris.dir/src/tetris.cpp.o.d"
+  "/home/dylan/Documents/GitHubRepo/TetrisClone/src/grid.cpp" "CMakeFiles/tetris.dir/src/grid.cpp.o" "gcc" "CMakeFiles/tetris.dir/src/grid.cpp.o.d"
+  "/home/dylan/Documents/GitHubRepo/TetrisClone/src/main.cpp" "CMakeFiles/tetris.dir/src/main.cpp.o" "gcc" "CMakeFiles/tetris.dir/src/main.cpp.o.d"
+  "/home/dylan/Documents/GitHubRepo/TetrisClone/src/tetris.cpp" "CMakeFiles/tetris.dir/src/tetris.cpp.o" "gcc" "CMakeFiles/tetris.dir/src/tetris.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

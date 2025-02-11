@@ -1,8 +1,8 @@
-if(NOT EXISTS "/home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: /home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/install_manifest.txt")
+if(NOT EXISTS "/home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: /home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/install_manifest.txt")
 endif()
 
-file(READ "/home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/install_manifest.txt" files)
+file(READ "/home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

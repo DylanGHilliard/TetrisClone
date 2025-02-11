@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dylan/Documents/GameClones/TetrisClone
+CMAKE_SOURCE_DIR = /home/dylan/Documents/GitHubRepo/TetrisClone
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu"
+CMAKE_BINARY_DIR = "/home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu"
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include _deps/raylib-build/CMakeFiles/uninstall.dir/compiler_depend.make
 include _deps/raylib-build/CMakeFiles/uninstall.dir/progress.make
 
 _deps/raylib-build/CMakeFiles/uninstall:
-	cd "/home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/_deps/raylib-build" && /usr/bin/cmake -P /home/dylan/Documents/GameClones/TetrisClone/out/build/GCC\ 12.3.0\ x86_64-linux-gnu/_deps/raylib-build/cmake_uninstall.cmake
+	cd "/home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/_deps/raylib-build" && /usr/bin/cmake -P /home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC\ 12.3.0\ x86_64-linux-gnu/_deps/raylib-build/cmake_uninstall.cmake
 
 _deps/raylib-build/CMakeFiles/uninstall.dir/codegen:
 .PHONY : _deps/raylib-build/CMakeFiles/uninstall.dir/codegen
@@ -81,10 +81,10 @@ _deps/raylib-build/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : _deps/raylib-build/CMakeFiles/uninstall.dir/build
 
 _deps/raylib-build/CMakeFiles/uninstall.dir/clean:
-	cd "/home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/_deps/raylib-build" && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd "/home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/_deps/raylib-build" && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : _deps/raylib-build/CMakeFiles/uninstall.dir/clean
 
 _deps/raylib-build/CMakeFiles/uninstall.dir/depend:
-	cd "/home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dylan/Documents/GameClones/TetrisClone "/home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/_deps/raylib-src" "/home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu" "/home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/_deps/raylib-build" "/home/dylan/Documents/GameClones/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/_deps/raylib-build/CMakeFiles/uninstall.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dylan/Documents/GitHubRepo/TetrisClone "/home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/_deps/raylib-src" "/home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu" "/home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/_deps/raylib-build" "/home/dylan/Documents/GitHubRepo/TetrisClone/out/build/GCC 12.3.0 x86_64-linux-gnu/_deps/raylib-build/CMakeFiles/uninstall.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : _deps/raylib-build/CMakeFiles/uninstall.dir/depend
 

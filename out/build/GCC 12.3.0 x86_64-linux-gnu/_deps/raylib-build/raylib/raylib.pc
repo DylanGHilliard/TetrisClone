@@ -1,4 +1,4 @@
-prefix=/home/dylan/Documents/GameClones/TetrisClone/out/install/GCC 12.3.0 x86_64-linux-gnu
+prefix=/home/dylan/Documents/GitHubRepo/TetrisClone/out/install/GCC 12.3.0 x86_64-linux-gnu
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
