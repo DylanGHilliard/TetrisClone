@@ -7,23 +7,13 @@ FetchContent_MakeAvailable(raylib)
 
 find_package(raylib)
 
-
-add_executable(tetris)
-
-target_sources(tetris 
-PRIVATE
-    src/main.cpp
-    src/tetris.cpp
-    src/grid.cpp
-
-
-    src/tetris.h
-    src/grid.h
-
+file(GLOB_RECURSE TETRIS_SRC_FILES  CONFIGURE_DEPENDS 
+        "${PROJECT_SOURCE_DIR}/src/*.cpp"
+        "${PROJECT_SOURCE_DIR}/src/*.hpp"
 )
-target_include_directories(tetris
-    PUBLIC
-    ${CMAKE_CURRENT_LIST_DIR}/src/)
+add_executable(tetris  ${TETRIS_SRC_FILES})
+
+
 
 target_link_libraries(tetris raylib)
 
